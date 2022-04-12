@@ -5,7 +5,7 @@
 replicaCount: 1
 
 remoteRepositories:   
-  my-remote-repo: pop-docker-dev-local
+  pop-docker-dev-local:
     type: docker 
     url: https://qusw.jfrog.io/artifactory/pop-docker-dev-local/pop-docker-dev-local/0.1/
     username: bhavya.nair@quest.com
