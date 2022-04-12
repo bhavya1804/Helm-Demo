@@ -12,7 +12,7 @@ remoteRepositories:
     password: AKCp8kr16CqwzL8iAzHDtpzcwdx6MH8xU7BPTBaJuvjMNoCnacDc6cxiZbwbbqd1Pmh8dt5XJ
 
 image:
-  repository: pop-docker-dev-local/pop-docker-dev-local/
+  repository: pop-docker-dev-local/pop-docker-dev-local
   tag: 0.1
   pullPolicy: IfNotPresent
 
