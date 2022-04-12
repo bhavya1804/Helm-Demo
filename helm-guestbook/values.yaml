@@ -7,7 +7,7 @@ replicaCount: 1
 remoteRepositories:   
   pop-docker-dev-local:
     type: docker 
-    url: https://qusw.jfrog.io/artifactory/pop-docker-dev-local
+    url: qusw.jfrog.io
     username: bhavya.nair@quest.com
     password: AKCp8kr16CqwzL8iAzHDtpzcwdx6MH8xU7BPTBaJuvjMNoCnacDc6cxiZbwbbqd1Pmh8dt5XJ
 
