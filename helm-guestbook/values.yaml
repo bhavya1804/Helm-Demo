@@ -4,20 +4,14 @@
 
 replicaCount: 1
 
-remoteRepositories:   
-  pop-docker-dev-local:
-    type: docker 
-    url: https://qusw.jfrog.io/
-    username: bhavya.nair@quest.com
-    password: AKCp8kr16CqwzL8iAzHDtpzcwdx6MH8xU7BPTBaJuvjMNoCnacDc6cxiZbwbbqd1Pmh8dt5XJ
-
 image:
-  imagePullSecrets:  
-  - name: artifactorycred
   repository: pop-docker-dev-local/pop-docker-dev-local
   tag: 0.1
   pullPolicy: IfNotPresent
-
+  
+imagePullSecrets: 
+  - name: artifactorycred
+  
 service:
   type: ClusterIP
   port: 80
