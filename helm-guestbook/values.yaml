@@ -4,6 +4,13 @@
 
 replicaCount: 1
 
+Login to JFrog
+   uses: docker/login-action@v1
+   with:
+      registry: qusw-pop-docker-dev-local.jfrog.io
+      username: bhavya.nair@quest.com 
+      password: AKCp8kr16CqwzL8iAzHDtpzcwdx6MH8xU7BPTBaJuvjMNoCnacDc6cxiZbwbbqd1Pmh8dt5XJ
+
 image:
   repository: gcr.io/heptio-images/ks-guestbook-demo
   tag: 0.1
