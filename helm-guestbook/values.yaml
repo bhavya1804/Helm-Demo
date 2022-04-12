@@ -4,12 +4,12 @@
 
 replicaCount: 1
 
-Login to JFrog
-   uses: docker/login-action@v1
-   with:
-      registry: qusw-pop-docker-dev-local.jfrog.io
-      username: bhavya.nair@quest.com 
-      password: AKCp8kr16CqwzL8iAzHDtpzcwdx6MH8xU7BPTBaJuvjMNoCnacDc6cxiZbwbbqd1Pmh8dt5XJ
+remoteRepositories:   
+  my-remote-repo: pop-docker-dev-local
+    type: docker 
+    url: https://qusw.jfrog.io/artifactory/pop-docker-dev-local/pop-docker-dev-local/0.1/
+    username: bhavya.nair@quest.com
+    password: AKCp8kr16CqwzL8iAzHDtpzcwdx6MH8xU7BPTBaJuvjMNoCnacDc6cxiZbwbbqd1Pmh8dt5XJ
 
 image:
   repository: pop-docker-dev-local/pop-docker-dev-local/
